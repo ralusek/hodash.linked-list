@@ -1,12 +1,26 @@
 {
   "name": "hodash.linked-list",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Typed linked list.",
+  "repository": {
+    "url": "https://github.com/ralusek/hodash.linked-list",
+    "type": "git"
+  },
+  "keywords": [
+    "linked list"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Tomas Savigliano",
+  "license": "MIT",
   "main": "./dist/index.js",
   "files": [
-    "./dist/**/*"
+    "/dist"
   ],
   "dependencies": {},
   "devDependencies": {
-    "typescript": "^3.4.3"
+    "@types/node": "^12.0.0",
+    "typescript": "3.4.5"
   }
 }
